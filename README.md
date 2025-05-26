@@ -16,6 +16,8 @@
 
 
   -Create a database named `scoring_database`
+
+
   -Import the SQL schema from `database/schema.sql`
 
 
@@ -34,20 +36,36 @@
 
 
 -Admin panel for judge management
+
+
 -Judge portal for submitting scores
+
+
 -Public scoreboard that auto-refreshes every 10 seconds
 
 
 ## Database Schema
 The database consists of three main tables:
+
+
 -`judges`:Stores judge information
+
+
 -`participants`:Stores participant information
+
+
 -`scores`:Stores scoring data with foreign keys to judges and participants
 
 
 ## Design Choices
+
+
 1. **PDO for Database Access**:Used PDO for secure database access
+
+
 2. **Simple Frontend**: Basic HTML/CSS for quick implementation
+
+
 3. **Auto-refreshing Scoreboard**: Javascript setTimeout for simple auto-refresh
 
 
