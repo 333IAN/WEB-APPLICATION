@@ -15,7 +15,7 @@
 2.**Database Setup**
 
 
-  -Create a database named `scoring_databsae`
+  -Create a database named `scoring_database`
   -Import the SQL schema from `database/schema.sql`
 
 
