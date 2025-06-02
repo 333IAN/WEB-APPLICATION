@@ -1,5 +1,10 @@
 # LAMP Stack Scoring Application
 
+![Home Page View](/home.png)
+![Scoreboard Display](/scoreboard.png)
+![Judges Addition](/judge.png)
+
+
 ## Setup Instructions
 
 
